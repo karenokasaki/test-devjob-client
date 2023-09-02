@@ -50,5 +50,8 @@ Acesse o sistema no seu navegador em http://localhost:5173.
 Contribuição
 Sinta-se à vontade para contribuir para este projeto abrindo problemas (issues) ou enviando solicitações de pull (pull requests). Toda contribuição é bem-vinda!
 
-Autora
-# Karen Okasaki - Leah Teacher
+**Projeto realizado em sala de aula com os alunos da turma 103 Web Dev - Ironhack 2023.**
+_Um futuro brilhante para todos vocês, meus alunos._
+
+
+# Autora: Karen Okasaki | Leah Teacher
