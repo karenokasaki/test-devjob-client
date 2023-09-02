@@ -17,7 +17,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Frontend: O frontend foi desenvolvido em **React.js** e estilizado em **Tailwindcss**.
 
 - Backend: O backend foi desenvolvido em **Node.js**, utilizando o framework **Express.js** para criar a API.
-- [Link do repositório do server]([https://link-url-here.org](https://github.com/karenokasaki/test-devjob-server))
+[Link do repositório do server]([https://link-url-here.org](https://github.com/karenokasaki/test-devjob-server))
   
 - Autenticação: JWT + Hasheamento de senha
 
