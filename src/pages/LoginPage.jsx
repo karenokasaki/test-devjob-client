@@ -24,14 +24,14 @@ function LoginPage() {
 
          if (userType === "user") {
             response = await axios.post(
-               "http://localhost:4000/user/login",
+               "https://103-webdev-job-test.cyclic.cloud/user/login",
                form
             );
          }
 
          if (userType === "business") {
             response = await axios.post(
-               "http://localhost:4000/business/login",
+               "https://103-webdev-job-test.cyclic.cloud/business/login",
                form
             );
          }

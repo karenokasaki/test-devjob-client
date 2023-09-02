@@ -10,7 +10,7 @@ export default function JobDetailPublic() {
    useEffect(() => {
       async function getJob() {
          const response = await axios.get(
-            `http://localhost:4000/job/${params.id_job}/public`
+            `https://103-webdev-job-test.cyclic.cloud/job/${params.id_job}/public`
          );
 
          setJob(response.data);

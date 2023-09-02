@@ -59,13 +59,13 @@ function SignupPage() {
 
          if (userType === "user") {
             await axios.post(
-               "http://localhost:4000/user/signup",
+               "https://103-webdev-job-test.cyclic.cloud/user/signup",
                formWithPhoto
             );
          }
          if (userType === "business") {
             await axios.post(
-               "http://localhost:4000/business/signup",
+               "https://103-webdev-job-test.cyclic.cloud/business/signup",
                formWithPhoto
             );
          }
