@@ -47,6 +47,15 @@ export default function JobDetailPage() {
       }
    }
 
+   async function handleSelectCandidate(id_user) {
+      try {
+         await api.post(`/approved-candidate/${params.id_job}/${id_user}`);
+         navigate("profile-business");
+      } catch (error) {
+         console.log(error);
+      }
+   }
+
    console.log(job);
 
    return (
@@ -100,7 +109,11 @@ export default function JobDetailPage() {
                         <p>{candidate.telefone}</p>
                         {/* falta curriculo */}
 
-                        <button>Selecionar Candidato</button>
+                        <button
+                           onClick={() => handleSelectCandidate(candidate._id)}
+                        >
+                           Selecionar Candidato
+                        </button>
                      </div>
                   );
                })}
