@@ -14,13 +14,15 @@ Este é um sistema de gerenciamento de vagas de emprego onde as empresas podem c
 ## Tecnologias Utilizadas
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- Frontend: O frontend foi desenvolvido em React.js, utilizando Axios para fazer requisições à API.
+- Frontend: O frontend foi desenvolvido em **React.js** e estilizado em **Tailwindcss**.
 
-- Backend: O backend foi desenvolvido em Node.js, utilizando o framework Express.js para criar a API.
+- Backend: O backend foi desenvolvido em **Node.js**, utilizando o framework **Express.js** para criar a API.
+  
+- Autenticação: JWT + Hasheamento de senha
 
-- Banco de Dados: Foi utilizado o MongoDB como banco de dados para armazenar informações sobre empresas, vagas e candidatos.
+- Banco de Dados: Foi utilizado o **MongoDB** como banco de dados para armazenar informações sobre empresas, vagas e candidatos.
 
-## Como Executar o Projeto Localmente
+### Como Executar o Projeto Localmente
 Siga as etapas abaixo para executar o projeto localmente em sua máquina:
 
 Clone este repositório para o seu computador:
